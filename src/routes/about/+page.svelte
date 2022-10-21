@@ -11,10 +11,10 @@
     the new life I was put up to.
   </p>
   <p>
-    Being able to speak <span class="c-yellow">English</span> helped me a lot to
-    learn
-    <span class="c-yellow">Swedish</span> fast and start focusing on building a career
-    as a developer.
+    Being able to speak <span class="c-yellow-light">English</span> helped me a
+    lot to learn
+    <span class="c-yellow-light">Swedish</span> fast and start focusing on building
+    a career as a developer.
   </p>
   <p>
     Currently studing a full-stack course with <span

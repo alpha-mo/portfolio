@@ -1,7 +1,8 @@
 :root {
   --red: #d72906;
   --yellow: #e6f390;
-  --yellow-tint: #e6f3909a;
+  --yellow-light: #dbd899;
+  --yellow-tint: #e6f390ac;
   --orange: #e96b0b;
   --cyan: #67fff0;
   --blue: #3895ff9c;
@@ -42,6 +43,9 @@ a:hover {
 }
 .c-yellow {
   color: var(--yellow);
+}
+.c-yellow-light {
+  color: var(--yellow-light);
 }
 .c-orange {
   color: var(--orange);
