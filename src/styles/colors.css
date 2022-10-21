@@ -2,7 +2,7 @@
   --red: #d72906;
   --yellow: #e6f390;
   --yellow-tint: #e6f3909a;
-  --orange: #d36008;
+  --orange: #e96b0b;
   --cyan: #67fff0;
   --blue: #3895ff9c;
   --background: #112240;
@@ -30,11 +30,11 @@ li {
 }
 
 a {
-  transition: all 350ms ease;
-  color: var(--yellow);
+  transition: all 250ms ease;
+  color: var(--cyan);
 }
 a:hover {
-  color: var(--cyan);
+  color: var(--yellow);
 }
 
 .c-red {
