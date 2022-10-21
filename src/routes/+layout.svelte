@@ -5,5 +5,9 @@
   import Nav from "$ui/nav/+page.svelte";
 </script>
 
+<svelte:head>
+  <title>Mohamad Ojail - portfolio</title>
+</svelte:head>
+
 <Nav />
 <slot />
