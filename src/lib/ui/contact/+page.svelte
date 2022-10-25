@@ -33,6 +33,7 @@
     width: 24px;
     height: 24px;
     fill: var(--cyan);
+    transition: all 100ms ease;
   }
   a:hover svg {
     transform: scale(1.2);
