@@ -1,4 +1,5 @@
 <script>
+  import Other from "$ui/contact/+page.svelte";
   import modalStatus from "$stores/modalStore";
   export let form;
   import { isOk } from "./utils";
@@ -63,6 +64,8 @@
   />
   <button>Send</button>
 </form>
+
+<Other />
 
 <style>
   form {
