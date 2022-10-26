@@ -1,5 +1,5 @@
 import type { Actions } from '@sveltejs/kit'
-import { fromForm, areOk, isOk } from './utils'
+import { fromForm, areOk, isOk } from '$utils/contact/contactFormUtils'
 
 export const actions: Actions = {
   default: async ({ request, fetch }) => {

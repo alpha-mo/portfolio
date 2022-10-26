@@ -1,6 +1,6 @@
 <script>
   import "$styles/lanBarColors.css";
-  import { getClassName, getPercentage } from "./utils";
+  import { getClassName, getPercentage } from "$utils/github/langBarUtils";
   export let langs = [{ lang: "other", value: 1 }];
   let total = 0;
   langs.forEach((l) => {
