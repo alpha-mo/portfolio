@@ -1,0 +1,36 @@
+.java {
+  background: #f2bd00;
+  color: #f2bd00;
+}
+.css {
+  background: #00e8fd;
+  color: #00e8fd;
+}
+.javascript {
+  background: #7afd00;
+  color: #7afd00;
+}
+.scss {
+  background: #7506f5;
+  color: #7506f5;
+}
+.svelte {
+  background: #ff8400;
+  color: #ff8400;
+}
+.html {
+  background: #dc0033;
+  color: #dc0033;
+}
+.typescript {
+  background: #0157ec;
+  color: #0157ec;
+}
+.handlebars {
+  background: #e200de;
+  color: #e200de;
+}
+.other {
+  background: #571945;
+  color: #571945;
+}
