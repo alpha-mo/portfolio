@@ -1,3 +1,5 @@
+import { json } from '@sveltejs/kit'
+import fs from 'fs'
 const fetchLanguages = async (url) => {
   const fromGit = await fetch(
     url,
@@ -16,7 +18,7 @@ const fetchLanguages = async (url) => {
 
 export const load = async ({ fetch }) => {
   const fromGit = await fetch(
-    'https://api.github.com/users/MohamadOjail/repos',
+    'https://api.github.com/users/alpha-mo/repos',
     {
       method: 'GET',
       headers: {
@@ -48,6 +50,6 @@ export const load = async ({ fetch }) => {
       topics: repo.topics
     })
   }
-
+  // fs.writeFileSync('repos.json', JSON.stringify(repos))
   return { repos }
 }
