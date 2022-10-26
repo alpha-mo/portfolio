@@ -1,161 +1,74 @@
 [
   {
-    "name": "bokningssystem",
-    "url": "https://github.com/MohamadOjail/bokningssystem",
-    "desc": "LIA-1 projekt",
-    "languages": [
-      { "lang": "Java", "value": 105666 },
-      { "lang": "CSS", "value": 3405 }
-    ],
-    "topics": []
+    "name": "alpha-mo",
+    "url": "https://github.com/alpha-mo/alpha-mo",
+    "desc": "readme markdown for my github profile",
+    "languages": [],
+    "topics": ["github", "profile-readme"]
+  },
+  {
+    "name": "ApiExceptionHandeling",
+    "url": "https://github.com/alpha-mo/ApiExceptionHandeling",
+    "desc": "Some Exceptions that you might encounter with Rest APIs",
+    "languages": [{ "lang": "Java", "value": 5075 }],
+    "topics": ["exception-handling", "rest-api", "spring-boot"]
   },
   {
     "name": "cheat-sheets",
-    "url": "https://github.com/MohamadOjail/cheat-sheets",
+    "url": "https://github.com/alpha-mo/cheat-sheets",
     "desc": "This is my personal knowledge-base. Here you'll find code-snippets, technical documentation, and command reference for various tools, and technologies.",
     "languages": [],
-    "topics": []
+    "topics": ["cheatsheets", "obsidian", "second-brain"]
   },
   {
     "name": "contact-form-server",
-    "url": "https://github.com/MohamadOjail/contact-form-server",
+    "url": "https://github.com/alpha-mo/contact-form-server",
     "desc": "a server to get messages from visitors and send them a confirmation",
     "languages": [
       { "lang": "JavaScript", "value": 7971 },
       { "lang": "HTML", "value": 2494 },
       { "lang": "Handlebars", "value": 2070 }
     ],
-    "topics": []
-  },
-  {
-    "name": "crwn-clothing",
-    "url": "https://github.com/MohamadOjail/crwn-clothing",
-    "desc": "click the link 👇 to see preview",
-    "languages": [
-      { "lang": "JavaScript", "value": 38478 },
-      { "lang": "SCSS", "value": 3945 },
-      { "lang": "HTML", "value": 1988 }
-    ],
-    "topics": ["javascript", "netlify", "react"]
-  },
-  {
-    "name": "DesignPatterns",
-    "url": "https://github.com/MohamadOjail/DesignPatterns",
-    "desc": null,
-    "languages": [
-      { "lang": "Java", "value": 45725 },
-      { "lang": "CSS", "value": 697 }
-    ],
-    "topics": []
+    "topics": ["email", "email-sender", "express", "nodejs"]
   },
   {
     "name": "JavaFx-multiple-Controllers-communications-tutorial",
-    "url": "https://github.com/MohamadOjail/JavaFx-multiple-Controllers-communications-tutorial",
+    "url": "https://github.com/alpha-mo/JavaFx-multiple-Controllers-communications-tutorial",
     "desc": "JavaFx multiple Controllers communications tutorial",
     "languages": [{ "lang": "Java", "value": 3214 }],
-    "topics": []
+    "topics": ["javafx", "learning-by-doing"]
   },
   {
     "name": "maven-plugin-tryParse",
-    "url": "https://github.com/MohamadOjail/maven-plugin-tryParse",
-    "desc": null,
+    "url": "https://github.com/alpha-mo/maven-plugin-tryParse",
+    "desc": "Published on Maven repository this plugin imitates the tryParse method in C# within Java, useful tools for parsing user inputs without the trouble of getting exceptions.",
     "languages": [{ "lang": "Java", "value": 3712 }],
-    "topics": []
-  },
-  {
-    "name": "MohamadOjail",
-    "url": "https://github.com/MohamadOjail/MohamadOjail",
-    "desc": "Config files for my GitHub profile.",
-    "languages": [],
-    "topics": ["config", "github-config"]
-  },
-  {
-    "name": "My-Portfolio",
-    "url": "https://github.com/MohamadOjail/My-Portfolio",
-    "desc": "built on Sveltekit!",
-    "languages": [
-      { "lang": "Svelte", "value": 22712 },
-      { "lang": "TypeScript", "value": 4668 },
-      { "lang": "CSS", "value": 695 },
-      { "lang": "JavaScript", "value": 603 },
-      { "lang": "HTML", "value": 299 }
-    ],
-    "topics": ["static", "sveltekit", "typescript"]
-  },
-  {
-    "name": "MyFirstPortfolio",
-    "url": "https://github.com/MohamadOjail/MyFirstPortfolio",
-    "desc": "This is my first Portfolio made with HTML and CSS",
-    "languages": [
-      { "lang": "HTML", "value": 8122 },
-      { "lang": "CSS", "value": 6248 }
-    ],
-    "topics": ["css", "html", "portfolio"]
-  },
-  {
-    "name": "openjfx-docs",
-    "url": "https://github.com/MohamadOjail/openjfx-docs",
-    "desc": "Getting started guide for JavaFX 11",
-    "languages": [
-      { "lang": "HTML", "value": 160082 },
-      { "lang": "JavaScript", "value": 7838 },
-      { "lang": "CSS", "value": 7504 }
-    ],
-    "topics": []
-  },
-  {
-    "name": "portfolio_React",
-    "url": "https://github.com/MohamadOjail/portfolio_React",
-    "desc": "learning ReactJs",
-    "languages": [
-      { "lang": "JavaScript", "value": 18050 },
-      { "lang": "HTML", "value": 1979 }
-    ],
-    "topics": []
+    "topics": ["csharp", "java", "maven-plugin", "tryparse"]
   },
   {
     "name": "rock_paper_scissors",
-    "url": "https://github.com/MohamadOjail/rock_paper_scissors",
-    "desc": null,
+    "url": "https://github.com/alpha-mo/rock_paper_scissors",
+    "desc": "Having fun learning JavaScript for the first time!",
     "languages": [
       { "lang": "JavaScript", "value": 3762 },
       { "lang": "CSS", "value": 3289 },
       { "lang": "HTML", "value": 1619 }
     ],
-    "topics": []
-  },
-  {
-    "name": "sfg-pet-clinic",
-    "url": "https://github.com/MohamadOjail/sfg-pet-clinic",
-    "desc": "SFT Pet Clinic",
-    "languages": [
-      { "lang": "Java", "value": 65866 },
-      { "lang": "HTML", "value": 16603 },
-      { "lang": "CSS", "value": 8583 }
-    ],
-    "topics": []
+    "topics": ["javascript", "learning-by-doing"]
   },
   {
     "name": "SimpleContactsBook-textFileDatabase",
-    "url": "https://github.com/MohamadOjail/SimpleContactsBook-textFileDatabase",
+    "url": "https://github.com/alpha-mo/SimpleContactsBook-textFileDatabase",
     "desc": "A simple Javafx application that utilizes a text file as a database",
     "languages": [
       { "lang": "Java", "value": 19790 },
       { "lang": "CSS", "value": 4503 }
     ],
-    "topics": [
-      "contactbook",
-      "controllers",
-      "dialog",
-      "fxml",
-      "javafx",
-      "observablelist",
-      "simpledatabase"
-    ]
+    "topics": ["fxml", "javafx"]
   },
   {
-    "name": "Software_development_process_gruppuppgift",
-    "url": "https://github.com/MohamadOjail/Software_development_process_gruppuppgift",
+    "name": "Software_development_process",
+    "url": "https://github.com/alpha-mo/Software_development_process",
     "desc": "School project to practice Software Development Process",
     "languages": [
       { "lang": "Java", "value": 136428 },
@@ -164,39 +77,22 @@
     "topics": ["development", "java", "scrum"]
   },
   {
-    "name": "SpringBootApiExceptionHandelingDemo",
-    "url": "https://github.com/MohamadOjail/SpringBootApiExceptionHandelingDemo",
-    "desc": "Some Exceptions that you might encounter with Rest APIs",
-    "languages": [{ "lang": "Java", "value": 5075 }],
-    "topics": []
-  },
-  {
     "name": "SpringBootRestApiDemo",
-    "url": "https://github.com/MohamadOjail/SpringBootRestApiDemo",
+    "url": "https://github.com/alpha-mo/SpringBootRestApiDemo",
     "desc": "Simple REST API with Exception handling",
     "languages": [{ "lang": "Java", "value": 17733 }],
-    "topics": []
+    "topics": ["exception-handling", "rest-api", "spring-boot"]
   },
   {
     "name": "SpringBootSecurityExample",
-    "url": "https://github.com/MohamadOjail/SpringBootSecurityExample",
-    "desc": "Using Spring boot 2.7*",
+    "url": "https://github.com/alpha-mo/SpringBootSecurityExample",
+    "desc": "Modern example of spring security, and without deprecated classes. Utilizing Authentication, Authorizations, JWT tokens and other methods and techs.",
     "languages": [{ "lang": "Java", "value": 24119 }],
-    "topics": ["deprecated", "jwt", "spring-boot-security"]
-  },
-  {
-    "name": "the-creative-react-course-capture",
-    "url": "https://github.com/MohamadOjail/the-creative-react-course-capture",
-    "desc": "Capture",
-    "languages": [
-      { "lang": "JavaScript", "value": 30066 },
-      { "lang": "HTML", "value": 1844 }
-    ],
-    "topics": []
+    "topics": ["jwt", "spring-boot-security"]
   },
   {
     "name": "TicTacToe",
-    "url": "https://github.com/MohamadOjail/TicTacToe",
+    "url": "https://github.com/alpha-mo/TicTacToe",
     "desc": "School project: Tic Tac Toe",
     "languages": [
       { "lang": "Java", "value": 10185 },
@@ -206,14 +102,14 @@
   },
   {
     "name": "TreIRad",
-    "url": "https://github.com/MohamadOjail/TreIRad",
+    "url": "https://github.com/alpha-mo/TreIRad",
     "desc": "a simple version of Tic Tac Toe - that can be played in the console.",
     "languages": [{ "lang": "Java", "value": 8332 }],
     "topics": ["java"]
   },
   {
     "name": "tryParse",
-    "url": "https://github.com/MohamadOjail/tryParse",
+    "url": "https://github.com/alpha-mo/tryParse",
     "desc": "simulate C# tryParse method in java",
     "languages": [{ "lang": "Java", "value": 4076 }],
     "topics": ["c-sharp", "java", "tryparse"]
