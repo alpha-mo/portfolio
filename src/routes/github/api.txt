@@ -1,0 +1,10 @@
+fetch(
+    'https://api.github.com/users/MohamadOjail/repos',
+    {
+      method: 'GET',
+      headers: {
+        'content-type': 'application/json; charset=utf-8',
+        'access-control-allow-origin': '*',
+      },
+    },
+  )

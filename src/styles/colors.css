@@ -6,7 +6,9 @@
   --orange: #e96b0b;
   --cyan: #67fff0;
   --blue: #3895ff9c;
-  --background: #112240;
+  --background: #0a192f;
+  --card-background: #112240;
+  --card-hover: #142c57;
   --white: #dbe7f3;
   --white-dim: #b2bfcd;
   --white-yellowish: #aaaaa4;
@@ -14,7 +16,7 @@
 }
 
 body {
-  background: #0a192f;
+  background: var(--background);
 }
 
 h1 {

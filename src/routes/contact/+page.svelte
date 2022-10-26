@@ -1,5 +1,5 @@
 <script>
-  import Other from "$ui/contact/+page.svelte";
+  import Other from "$components/contact/links.svelte";
   import modalStatus from "$stores/modalStore";
   export let form;
   import { isOk } from "./utils";
@@ -118,5 +118,29 @@
   }
   .err {
     border-color: var(--red);
+  }
+  @media (max-width: 440px) {
+    form {
+      width: 290px;
+    }
+    input,
+    textarea {
+      font-size: 16px;
+    }
+    button {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 320px) {
+    form {
+      width: 240px;
+    }
+    input,
+    textarea {
+      font-size: 14px;
+    }
+    button {
+      font-size: 14px;
+    }
   }
 </style>
