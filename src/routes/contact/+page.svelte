@@ -2,7 +2,7 @@
   import Other from "$components/contact/links.svelte";
   import modalStatus from "$stores/modalStore";
   export let form;
-  import { isOk } from "./utils";
+  import { isOk } from "$utils/contact/contactFormUtils";
   import { enhance } from "$app/forms";
   let nameValue = form?.name ?? "";
   let emailValue = form?.email ?? "";
