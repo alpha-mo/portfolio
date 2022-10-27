@@ -14,7 +14,7 @@ const config = {
 			$ui: "src/lib/ui",
 			$components: "src/lib/components",
 			$stores: "src/stores",
-			$data: "src/lib/data",
+			$data: "src/data",
 			$utils: "src/utils"
 		}
 	}

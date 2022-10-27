@@ -1,10 +1,10 @@
 <script>
   import Card from "$components/github/card.svelte";
-  export let data;
+  import repos from "$data/github/repos.json";
 </script>
 
 <div class="container">
-  {#each data.repos as repo}
+  {#each repos as repo}
     <Card {repo} />
   {/each}
 </div>
