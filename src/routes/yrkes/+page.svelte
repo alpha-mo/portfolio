@@ -1,8 +1,13 @@
 <script>
   import Cards from "$components/yrkes/Cards.svelte";
+  import { fly } from "svelte/transition";
 </script>
 
-<div class="container">
+<div
+  class="container"
+  in:fly={{ y: 100, duration: 150, delay: 300, opacity: 0 }}
+  out:fly={{ y: 100, duration: 150, opacity: 0, delay: 150 }}
+>
   <h1>Systems Development</h1>
   <p>
     my studies with Yrkesakademin consist of a combo of both front and back-end

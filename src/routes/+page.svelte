@@ -1,4 +1,12 @@
-<div class="container">
+<script>
+  import { fly } from "svelte/transition";
+</script>
+
+<div
+  class="container"
+  in:fly={{ y: 100, duration: 150, delay: 300, opacity: 0 }}
+  out:fly={{ y: 100, duration: 150, opacity: 0, delay: 150 }}
+>
   <div class="name">
     <p class="c-yellow">My name is</p>
     <h1>Mohamad Ojail</h1>
