@@ -1,4 +1,5 @@
 <script>
+  import { fly } from "svelte/transition";
   import Other from "$components/contact/links.svelte";
   import modalStatus from "$stores/modalStore";
   export let form;
@@ -17,55 +18,60 @@
   };
 </script>
 
-<form
-  method="POST"
-  use:enhance={({ form }) => {
-    modalStatus.setOn();
-    return async ({ result, update }) => {
-      if (result.data.success) {
-        form.reset();
-        update();
-        modalStatus.setOff();
-      } else modalStatus.setOffNoMsg();
-    };
-  }}
+<div
+  in:fly={{ y: 100, duration: 150, delay: 300, opacity: 0 }}
+  out:fly={{ y: 100, duration: 150, opacity: 0, delay: 150 }}
 >
-  <input
-    type="text"
-    name="name"
-    id="name"
-    placeholder="Your name *"
-    bind:value={nameValue}
-    class:err={nameSetErr}
-    on:blur={() => {
-      onchange(0);
+  <form
+    method="POST"
+    use:enhance={({ form }) => {
+      modalStatus.setOn();
+      return async ({ result, update }) => {
+        if (result.data.success) {
+          form.reset();
+          update();
+          modalStatus.setOff();
+        } else modalStatus.setOffNoMsg();
+      };
     }}
-  />
-  <input
-    type="email"
-    name="email"
-    id="email"
-    placeholder="Your e-mail *"
-    bind:value={emailValue}
-    class:err={emailSetErr}
-    on:blur={() => {
-      onchange(1);
-    }}
-  />
-  <textarea
-    name="message"
-    id="message"
-    placeholder="Your message *"
-    bind:value={messageValue}
-    class:err={messageSetErr}
-    on:blur={() => {
-      onchange(2);
-    }}
-  />
-  <button>Send</button>
-</form>
+  >
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Your name *"
+      bind:value={nameValue}
+      class:err={nameSetErr}
+      on:blur={() => {
+        onchange(0);
+      }}
+    />
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="Your e-mail *"
+      bind:value={emailValue}
+      class:err={emailSetErr}
+      on:blur={() => {
+        onchange(1);
+      }}
+    />
+    <textarea
+      name="message"
+      id="message"
+      placeholder="Your message *"
+      bind:value={messageValue}
+      class:err={messageSetErr}
+      on:blur={() => {
+        onchange(2);
+      }}
+    />
+    <button>Send</button>
+  </form>
 
-<Other />
+  <Other />
+</div>
 
 <style>
   form {

@@ -1,8 +1,13 @@
 <script>
   import Cards from "$components/own/cards.svelte";
+  import { fly } from "svelte/transition";
 </script>
 
-<div class="container">
+<div
+  class="container"
+  in:fly={{ y: 100, duration: 150, delay: 300, opacity: 0 }}
+  out:fly={{ y: 100, duration: 150, opacity: 0, delay: 150 }}
+>
   <h1>Constant development!</h1>
   <p>
     To work as a developer means that you are in a constant need of learning new
