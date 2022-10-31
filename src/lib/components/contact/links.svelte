@@ -2,7 +2,7 @@
   <p>find me on:</p>
   <div class="icons">
     <a
-      href="https://github.com/MohamadOjail"
+      href="https://github.com/alpha-mo"
       target="_blank"
       rel="noopener noreferrer"
     >
