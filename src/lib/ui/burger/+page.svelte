@@ -4,12 +4,12 @@
   const height = 24;
   const viewBox = `0 0 ${width} ${height}`;
   const rectHeight = 2;
-  let open = false;
+  $: open = $MobileMenuStatus;
   const onClick = () => {
     open = !open;
+    MobileMenuStatus.set(open);
   };
   let winWidth;
-  $: MobileMenuStatus.set(open);
   $: if (winWidth > 570) {
     open = false;
   }

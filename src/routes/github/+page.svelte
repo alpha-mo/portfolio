@@ -18,7 +18,7 @@
   .container {
     display: flex;
     width: 65%;
-    padding: 10px;
+    padding: 5px;
     margin: 50px auto;
     flex-wrap: wrap;
     flex-direction: row;

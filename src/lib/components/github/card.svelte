@@ -29,6 +29,7 @@
 <style>
   .card {
     width: 350px;
+    min-width: 340px;
     height: 350px;
     background: var(--card-background);
     border-radius: 2px;
