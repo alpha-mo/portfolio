@@ -1,11 +1,14 @@
 <script>
   import MobileMenuStatus from "$stores/mobileMenuStore";
+  const close = () => {
+    MobileMenuStatus.set(false);
+  };
 </script>
 
 <div class:hidden={!$MobileMenuStatus}>
-  <a href="/about">About me</a>
-  <a href="/github">Latest on Github</a>
-  <a href="/contact">Contact Me</a>
+  <a href="/about" on:click={close}>About me</a>
+  <a href="/github" on:click={close}>Latest on Github</a>
+  <a href="/contact" on:click={close}>Contact Me</a>
 </div>
 
 <style>
