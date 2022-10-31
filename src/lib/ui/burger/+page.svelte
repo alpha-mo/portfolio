@@ -1,4 +1,5 @@
 <script>
+  import MobileMenuStatus from "$stores/mobileMenuStore";
   const width = 35;
   const height = 24;
   const viewBox = `0 0 ${width} ${height}`;
@@ -7,8 +8,14 @@
   const onClick = () => {
     open = !open;
   };
+  let winWidth;
+  $: MobileMenuStatus.set(open);
+  $: if (winWidth > 570) {
+    open = false;
+  }
 </script>
 
+<svelte:window bind:innerWidth={winWidth} />
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <svg class:open {width} {height} {viewBox} on:click={onClick}>
   <rect class="top" y="0" {width} height={rectHeight} fill="#b2bfcd" />
