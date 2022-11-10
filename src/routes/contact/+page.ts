@@ -1,10 +1,9 @@
 import type { Actions } from '@sveltejs/kit'
 import { fromForm, areOk, isOk } from '$utils/contact/contactFormUtils'
 
-console.log('+page.ts invoked')
-
 export const actions: Actions = {
   default: async ({ request, fetch }) => {
+    console.log('actions in +page.ts invoked')
     const formData = await request.formData()
     const { name, message, email } = fromForm(formData)
     let result: {}
