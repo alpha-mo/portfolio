@@ -1,5 +1,4 @@
 <script>
-  console.log("testing from contact page");
   import { fly } from "svelte/transition";
   import Other from "$components/contact/links.svelte";
   import modalStatus from "$stores/modalStore";
