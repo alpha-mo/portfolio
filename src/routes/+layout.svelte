@@ -14,7 +14,7 @@
         "Content-Type": "application/json",
       },
     });
-    result = await res.json();
+    const result = await res.json();
     console.log(result);
   };
   test();
