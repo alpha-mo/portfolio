@@ -9,6 +9,9 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
+		csrf: {
+			checkOrigin: false,
+		},
 		alias: {
 			$styles: "src/styles",
 			$ui: "src/lib/ui",

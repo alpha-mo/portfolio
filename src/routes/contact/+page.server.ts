@@ -9,7 +9,7 @@ export const actions: Actions = {
     let result: {}
 
     if (areOk({ name, email, message })) {
-      const res = await fetch('http://localhost:4000', {
+      const res = await fetch('http://localhost:4000/api/server/contact', {
         method: 'POST',
         credentials: 'same-origin',
         headers: {
@@ -18,6 +18,7 @@ export const actions: Actions = {
         body: JSON.stringify({ name, email, message }),
       })
       result = await res.json()
+      console.log(result)
     } else {
       return {
         success: false,

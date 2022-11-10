@@ -31,7 +31,8 @@
           form.reset();
           update();
           modalStatus.setOff();
-        } else modalStatus.setOffNoMsg();
+        }
+        modalStatus.setOffNoMsg();
       };
     }}
   >
