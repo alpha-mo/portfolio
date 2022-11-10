@@ -8,17 +8,14 @@ export const actions: Actions = {
     let result: {}
 
     if (areOk({ name, email, message })) {
-      const res = await fetch(
-        'https://contact.ojail.online/api/server/contact',
-        {
-          method: 'POST',
-          credentials: 'same-origin',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ name, email, message }),
+      const res = await fetch('http://localhost:4000', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json',
         },
-      )
+        body: JSON.stringify({ name, email, message }),
+      })
       result = await res.json()
     } else {
       return {
