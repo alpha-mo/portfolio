@@ -5,7 +5,7 @@
   import Nav from "$ui/nav/+page.svelte";
   import Modal from "$ui/modal/+page.svelte";
   import modalStatus from "$stores/modalStore";
-  console.log("Trying to connect");
+
   const test = async () => {
     const res = await fetch("http://localhost:4000", {
       method: "GET",
