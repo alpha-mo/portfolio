@@ -1,6 +1,5 @@
 <script>
   import { fly } from "svelte/transition";
-  console.log("Trying to connect");
 </script>
 
 <div
