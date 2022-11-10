@@ -5,6 +5,18 @@
   import Nav from "$ui/nav/+page.svelte";
   import Modal from "$ui/modal/+page.svelte";
   import modalStatus from "$stores/modalStore";
+  const test = async () => {
+    const res = await fetch("http://localhost:4000", {
+      method: "GET",
+      credentials: "same-origin",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    result = await res.json();
+    console.log(result);
+  };
+  test();
 </script>
 
 <svelte:head>
