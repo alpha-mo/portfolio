@@ -1,6 +1,16 @@
 import type { Actions } from '@sveltejs/kit'
 import { fromForm, areOk, isOk } from '$utils/contact/contactFormUtils'
 
+const res = await fetch('http://localhost:4000', {
+  method: 'GET',
+  credentials: 'same-origin',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+})
+const result = await res.json()
+console.log(result)
+
 export const actions: Actions = {
   default: async ({ request, fetch }) => {
     console.log('actions in +page.ts invoked')
