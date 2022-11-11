@@ -9,7 +9,7 @@ export const actions: Actions = {
     let result: {}
 
     if (areOk({ name, email, message })) {
-      const res = await fetch('http://localhost:4000/api/server/contact', {
+      const res = await fetch('http://localhost:443/api/server/contact', {
         method: 'POST',
         credentials: 'same-origin',
         headers: {
